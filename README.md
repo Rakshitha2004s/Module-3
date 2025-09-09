@@ -8,6 +8,7 @@ Start Input the first string → str1 Input the second string → str2 Initializ
 # PROGRAM
 ~~~
 # 212222060245-Singamala Rakshitha
+
 def cc(s1,s2):
     ccc=[char for char in s1 if char in s2]
     for char in ccc:
@@ -36,6 +37,7 @@ Start Input the string → str1 Define the allowed character set → allowed = [
 # PROGRAM
 ~~~
 # 212222060245 - Singamala Rakshitha
+
 import re 
 s=input()
 if re.search(r'^[a-zA-Z0-9]+$',s):
@@ -59,6 +61,7 @@ Start the program. Define a function named createlist that accepts a single para
 # PROGRAM
 ~~~
 # 212222060245-Singamala Rakshitha
+
 def createlist(n):
     l=[]
     for i in range(12,n):
@@ -83,6 +86,7 @@ Start the program. Accept input from the user for the value of N. Initialize an 
 # PROGRAM
 ~~~
 # 212223060113-Karnatm Bindu
+
 n=int(input())
 a=[]
 sum=0
@@ -110,6 +114,7 @@ Start the program. Define a function named splitstring that accepts one argument
 # PROGRAM
 ~~~
 # 212222060245-Singamala Rakshitha
+
 def splitstring(a): x=a.split('@') print(x)
 ~~~
 # OUTPUT
